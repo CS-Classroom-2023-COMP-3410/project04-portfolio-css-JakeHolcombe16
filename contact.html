@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <!-- Navigation bar -->
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+        </div>
+        
+        <!-- Main content -->
+        <div class="center-wrapper">
+            <h2>Contact Me</h2>
+            <!-- Contact form -->
+            <form action="mailto:jake.holcombe@du.edu" method="get" enctype="text/plain" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+        
+        <!-- Links section -->
+        <div class="links">
+            <a href="https://jakeholcombe16.github.io" target="_blank">Website</a>
+            <a href="https://github.com/jakeholcombe16" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/jakeholcombe/" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
