@@ -140,3 +140,14 @@ body {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 444px) {
+    .navbar {
+        flex-direction: column;
+        font-size: 1em;
+    }
+    .overlay-text {
+        font-size: 1em;
+    }
+    
+}

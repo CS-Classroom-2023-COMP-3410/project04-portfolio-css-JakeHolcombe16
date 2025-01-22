@@ -105,3 +105,11 @@ body {
     font-weight: bold;
     transform: scale(1.4); /* Slightly increase text size */
 }
+
+@media screen and (max-width: 444px) {
+    .navbar {
+        flex-direction: column;
+        font-size: 1em;
+    }
+    
+}
